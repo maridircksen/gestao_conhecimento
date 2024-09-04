@@ -4,6 +4,7 @@ Esta avaliação tem por objetivo realizar Análise dos Filmes Exibidos entre 20
 
 
 **Sobre a Base de Dados** 
+
 A base escolhida tem informações dos filmes exibidos entre 209 e 2019, tal arquivo que se localiza em Data > database_filmes
 
 
@@ -25,12 +26,15 @@ Como (Como): Refere-se ao método ou à quantidade que quantifica ou qualifica o
 Colunas: Publico no ano de exibição, Renda no ano de exibição
 
 **Implementação de Cubo de Dados**
+
 Foi implementado um cubo de dados conforme a base escolhida. Onde poderá escolher as categorias que quer ver nas linhas e colunas, um valor numérico para analisar (como vendas ou renda) e como quer agregar esses valores (somar, contar, etc.). Caso sejam escolhidas diferentes linhas e colunas, o código cria uma tabela dinâmica, que organiza os dados para mostrar o valor escolhido de acordo com as categorias que você selecionou. Além disso, ele também mostra uma tabela simples, somando os valores da categoria de linha que você escolheu.
 
 **Visualização**
+
 O usuário pode escolher medidas (como valores numéricos) e dimensões (categorias como país ou gênero) para analisar. Dependendo de quantas medidas o usuário escolhe, diferentes tipos de gráficos são exibidos: Histograma (com 1 medida): mostra a distribuição dessa medida., Gráfico de dispersão (com 2 medidas): mostra a relação entre duas medidas. Gráfico de bolhas (com 3 medidas): visualiza a relação entre três medidas, usando o tamanho das bolhas para a terceira medida. Também há gráficos de pizza e barras/linhas para mostrar como as dimensões escolhidas afetam as medidas ao longo do tempo.
 
 **Rotinas com base na análise de dados**
+
 Aqui estão duas rotinas para cada tipo de análise de dados para ser implemento a base de dados de filmes:
 
  *1. Análise Descritiva*
