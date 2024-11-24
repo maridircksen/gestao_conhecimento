@@ -17,8 +17,7 @@ meds = cols[0].multiselect(
 # Seleção de dimensões categóricas
 dims = cols[1].selectbox(
     'Dimensões', [
-        'Grupo', 'Estádio', 'Cidade', 'Time da Casa', 'Time Visitante', 'Condições de Vitória', 'Vencedor'
-    ]
+        'Grupo', 'Estádio', 'Cidade', 'Time da Casa', 'Time Visitante', 'Condições de Vitória', 'Vencedor',    ]
 )
 
 # Seleção de dimensões temporais

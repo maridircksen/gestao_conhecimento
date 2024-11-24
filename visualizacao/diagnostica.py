@@ -7,7 +7,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 from statsmodels.stats.multicomp import pairwise_tukeyhsd
 from itertools import combinations
 
-# Estilo dos cartões de métrica
+
 style_metric_cards(
     border_left_color="#3D5077",
     background_color="#F0F2F6",
@@ -17,7 +17,7 @@ style_metric_cards(
     box_shadow=True
 )
 
-# Definindo as colunas e seleções
+# Definir as colunas e seleções
 cols = st.columns(4)
 coluna = cols[0].selectbox(
     'Dimensões Coluna',

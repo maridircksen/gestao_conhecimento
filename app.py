@@ -39,9 +39,13 @@ pg = st.navigation(
         ],
 
         "Visualização":[
-            st.Page(page='visualizacao/descritiva.py', title='Descritiva', icon=':material/help:'),
-            st.Page(page='visualizacao/diagnostica.py', title='Diagnóstica', icon=':material/help:'),
-        ]
+            st.Page(page='visualizacao/descritiva.py', title='Análise Descritiva', icon=':material/help:'),
+            st.Page(page='visualizacao/diagnostica.py', title='Análise Diagnóstica', icon=':material/help:'),
+            st.Page(page='visualizacao/preditiva.py', title='Análise Preditiva', icon=':material/help:'),
+            st.Page(page='visualizacao/prescritiva.py', title='Análise Prescritiva', icon=':material/help:')
+        ],
+
+        
     }
 )
 
